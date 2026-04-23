@@ -2,7 +2,7 @@
   "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
   "name": "rosie-mcp-plugin",
   "description": "Rosie MCP plugin for resource discovery, category navigation, search telemetry, and case-manager evaluation workflows.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": {
     "name": "zaddycoin",
     "email": "support@rosie.fyi"

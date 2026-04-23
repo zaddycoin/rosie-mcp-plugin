@@ -7,14 +7,14 @@
   },
   "metadata": {
     "description": "Rosie plugins and MCP integrations for resource discovery workflows.",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   "plugins": [
     {
       "name": "rosie-mcp-plugin",
       "source": "./",
       "description": "Hosted Rosie MCP plus skills for category navigation, search telemetry, and case-manager query evaluation.",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "author": {
         "name": "zaddycoin",
         "email": "support@rosie.fyi"
