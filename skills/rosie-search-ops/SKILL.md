@@ -1,11 +1,11 @@
 ---
 name: rosie-search-ops
-description: Use Rosie MCP telemetry and category tools to evaluate search coverage, demand, and navigation gaps.
+description: Use Rosie MCP telemetry, live search checks, and structured result inspection to evaluate search coverage, demand, routing quality, and navigation gaps.
 ---
 
 # Rosie Search Ops
 
-Use this skill when the user is asking about Rosie search behavior, category coverage, or whether users are finding the right services.
+Use this skill when the user is asking about Rosie search behavior, category coverage, whether users are finding the right services, or where search quality is breaking.
 
 ## Server tools
 
@@ -21,10 +21,13 @@ Use this skill when the user is asking about Rosie search behavior, category cov
 1. Start with `get_search_telemetry` when the question is operational or diagnostic.
 2. Compare telemetry themes against `list_service_categories` when coverage looks weak.
 3. Use `search_resources` to validate suspected gaps instead of inferring them.
-4. Report concrete patterns: repeated queries, missing category alignment, weak city coverage, or route-specific demand.
+4. Inspect the returned structure, not just the labels: `type`, `city`, `address`, `phone`, `eligibility`, and whether top results are structured rows or raw page chunks.
+5. Report concrete patterns: repeated queries, missing category alignment, weak city coverage, route-specific demand, low contact coverage, or chunk-heavy top results.
 
 ## Guidance
 
 - Distinguish clearly between observed telemetry and your inference.
 - When telemetry suggests a gap, validate with one or two live searches.
-- Keep recommendations practical: rename categories, add synonyms, improve city-specific indexing, or expand service coverage.
+- For case-manager or urgent queries, treat wrong-city results as a serious failure when the user gave a clear locality.
+- Separate evaluator bugs from product gaps if your test harness or heuristics are noisy.
+- Keep recommendations practical: rename categories, add synonyms, improve city-specific indexing, harden locality ranking, suppress raw chunks, or expand service coverage.

@@ -7,14 +7,14 @@
   },
   "metadata": {
     "description": "Rosie plugins and MCP integrations for resource discovery workflows.",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "plugins": [
     {
       "name": "rosie-mcp-plugin",
       "source": "./",
-      "description": "Hosted Rosie MCP plus skills for category navigation and search telemetry.",
-      "version": "0.1.0",
+      "description": "Hosted Rosie MCP plus skills for category navigation, search telemetry, and case-manager query evaluation.",
+      "version": "0.2.0",
       "author": {
         "name": "zaddycoin",
         "email": "support@rosie.fyi"
@@ -27,7 +27,9 @@
         "mcp",
         "alameda-county",
         "services",
-        "resource-navigation"
+        "resource-navigation",
+        "case-manager",
+        "search-evaluation"
       ],
       "category": "productivity",
       "skills": "./skills",
