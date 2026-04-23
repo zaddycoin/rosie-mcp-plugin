@@ -1,0 +1,37 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "rosie-marketplace",
+  "owner": {
+    "name": "zaddycoin",
+    "email": "support@rosie.fyi"
+  },
+  "metadata": {
+    "description": "Rosie plugins and MCP integrations for resource discovery workflows.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "rosie-mcp-plugin",
+      "source": "./",
+      "description": "Hosted Rosie MCP plus skills for category navigation and search telemetry.",
+      "version": "0.1.0",
+      "author": {
+        "name": "zaddycoin",
+        "email": "support@rosie.fyi"
+      },
+      "homepage": "https://www.rosie.fyi/",
+      "repository": "https://github.com/zaddycoin/rosie-mcp-plugin",
+      "license": "UNLICENSED",
+      "keywords": [
+        "rosie",
+        "mcp",
+        "alameda-county",
+        "services",
+        "resource-navigation"
+      ],
+      "category": "productivity",
+      "skills": "./skills",
+      "mcpServers": "./.mcp.json"
+    }
+  ]
+}

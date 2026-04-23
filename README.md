@@ -2,6 +2,22 @@
 
 This repository contains a Codex plugin that installs the hosted Rosie MCP server and bundles skills for navigating Rosie resource discovery workflows.
 
+It now also exposes a Claude Code marketplace manifest at [`.claude-plugin/marketplace.json`](./.claude-plugin/marketplace.json), so you can add this repository directly as a marketplace in Claude.
+
+## Claude marketplace install
+
+Use this repo as the marketplace source:
+
+```text
+zaddycoin/rosie-mcp-plugin
+```
+
+Then install:
+
+```text
+rosie-mcp-plugin@rosie-marketplace
+```
+
 ## What it installs
 
 - A remote MCP server pointing at `https://www.rosie.fyi/mcp`

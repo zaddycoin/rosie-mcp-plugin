@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "rosie-mcp-plugin",
+  "description": "Rosie MCP plugin for resource discovery, category navigation, and search telemetry workflows.",
+  "version": "0.1.0",
+  "author": {
+    "name": "zaddycoin",
+    "email": "support@rosie.fyi"
+  },
+  "homepage": "https://www.rosie.fyi/",
+  "repository": "https://github.com/zaddycoin/rosie-mcp-plugin",
+  "license": "UNLICENSED",
+  "keywords": [
+    "rosie",
+    "mcp",
+    "alameda-county",
+    "services",
+    "resource-navigation"
+  ],
+  "skills": "./skills",
+  "mcpServers": "./.mcp.json"
+}
