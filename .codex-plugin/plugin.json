@@ -1,6 +1,6 @@
 {
   "name": "rosie-mcp-plugin",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Codex plugin for the Rosie remote MCP server, service discovery, and case-manager query evaluation workflows.",
   "author": {
     "name": "zaddycoin",

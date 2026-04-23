@@ -1,8 +1,8 @@
 {
   "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
   "name": "rosie-mcp-plugin",
-  "description": "Rosie MCP plugin for resource discovery, category navigation, search telemetry, and case-manager evaluation workflows.",
-  "version": "0.2.1",
+  "description": "Rosie MCP plugin for Alameda County resource discovery, search QA, and case-manager evaluation workflows.",
+  "version": "0.2.2",
   "author": {
     "name": "zaddycoin",
     "email": "support@rosie.fyi"
