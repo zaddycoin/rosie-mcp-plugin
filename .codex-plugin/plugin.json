@@ -1,0 +1,44 @@
+{
+  "name": "rosie-mcp-plugin",
+  "version": "0.1.0",
+  "description": "Codex plugin for the Rosie remote MCP server and Alameda County resource navigation workflows.",
+  "author": {
+    "name": "zaddycoin",
+    "email": "support@rosie.fyi",
+    "url": "https://github.com/zaddycoin"
+  },
+  "homepage": "https://rosie-mcp.vercel.app/",
+  "repository": "https://github.com/zaddycoin/rosie-mcp-plugin",
+  "license": "UNLICENSED",
+  "keywords": [
+    "rosie",
+    "mcp",
+    "alameda-county",
+    "services",
+    "resource-navigation"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Rosie MCP",
+    "shortDescription": "Rosie resource discovery and search guidance.",
+    "longDescription": "Installs the hosted Rosie MCP server and adds skills that help agents navigate Alameda County resource discovery, category exploration, and search telemetry.",
+    "developerName": "zaddycoin",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Search"
+    ],
+    "websiteURL": "https://rosie-mcp.vercel.app/",
+    "privacyPolicyURL": "https://rosie-mcp.vercel.app/",
+    "termsOfServiceURL": "https://rosie-mcp.vercel.app/",
+    "defaultPrompt": [
+      "Find housing and food support in Oakland using Rosie.",
+      "List Rosie service categories before searching broadly.",
+      "Check Rosie search telemetry for the last 30 days."
+    ],
+    "brandColor": "#4a80e6",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png"
+  }
+}

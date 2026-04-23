@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "rosie": {
+      "url": "https://rosie-mcp.vercel.app/api/mcp"
+    }
+  }
+}
