@@ -7,7 +7,7 @@
     "email": "support@rosie.fyi",
     "url": "https://github.com/zaddycoin"
   },
-  "homepage": "https://rosie-mcp.vercel.app/",
+  "homepage": "https://www.rosie.fyi/",
   "repository": "https://github.com/zaddycoin/rosie-mcp-plugin",
   "license": "UNLICENSED",
   "keywords": [
@@ -29,9 +29,9 @@
       "Interactive",
       "Search"
     ],
-    "websiteURL": "https://rosie-mcp.vercel.app/",
-    "privacyPolicyURL": "https://rosie-mcp.vercel.app/",
-    "termsOfServiceURL": "https://rosie-mcp.vercel.app/",
+    "websiteURL": "https://www.rosie.fyi/",
+    "privacyPolicyURL": "https://www.rosie.fyi/",
+    "termsOfServiceURL": "https://www.rosie.fyi/",
     "defaultPrompt": [
       "Find housing and food support in Oakland using Rosie.",
       "List Rosie service categories before searching broadly.",
