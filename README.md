@@ -20,7 +20,7 @@ rosie-mcp-plugin@rosie-marketplace
 
 ## What it installs
 
-- A remote MCP server pointing at `https://www.rosie.fyi/mcp`
+- A remote MCP server pointing at `https://rosie-mcp.vercel.app/mcp`
 - Skill guidance for category-first exploration, focused service lookup, case-manager query evaluation, and Rosie search telemetry review
 
 ## Included skills
@@ -40,7 +40,7 @@ The bundled MCP config lives in [`.mcp.json`](./.mcp.json) and points to the can
 {
   "mcpServers": {
     "rosie": {
-      "url": "https://www.rosie.fyi/mcp"
+      "url": "https://rosie-mcp.vercel.app/mcp"
     }
   }
 }
