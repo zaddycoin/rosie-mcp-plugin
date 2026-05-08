@@ -7,7 +7,7 @@
   },
   "metadata": {
     "description": "Rosie plugins and MCP integrations for resource discovery workflows.",
-    "version": "0.2.3"
+    "version": "0.2.4"
   },
   "plugins": [
     {
@@ -17,7 +17,7 @@
         "repo": "shoalresearch/rosie-mcp-plugin"
       },
       "description": "Hosted Rosie MCP plus skills for Alameda County navigation, search QA, and case-manager query evaluation.",
-      "version": "0.2.3",
+      "version": "0.2.4",
       "author": {
         "name": "shoalresearch",
         "email": "support@rosie.fyi"
